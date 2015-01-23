@@ -1,0 +1,31 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Fluentd
+scopeName: source.fluentd
+fileTypes: []
+uuid: 441704c1-2d2c-40b8-a251-5b811ea19fdf
+
+patterns:
+- name: entity.tag.start.fluentd
+  match: (<)(\w+)(\s([^>]+?))?(>)
+  captures:
+    '1': {name: punctuation.definition.tag.fluentd}
+    '2': {name: entity.tag.fluentd}
+    '4': {name: entity.other.attribute-name.fluentd}
+    '5': {name: punctuation.definition.tag.fluentd}
+
+- name: entity.tag.end.fluentd
+  match: (</)(\w+)(>)
+  captures:
+    '1': {name: punctuation.definition.tag.fluentd}
+    '2': {name: entity.tag.fluentd}
+    '3': {name: punctuation.definition.tag.fluentd}
+
+- name: keyword.directive.generic.fluentd
+  match: ((\w+) ([^\n#]+))
+  captures:
+    '2': {name: keyword.directive.fluentd}
+    '3': {name: string.unquoted.fluentd}
+
+- match: (#).*$\n?
+  name: comment.line.number-sign
