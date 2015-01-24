@@ -9,6 +9,8 @@ Got some [fluentd](http://www.fluentd.org/) configuration files you wish were ea
 
 ## Installation
 
+As a `.tmLanguage` file this should be usable with Sublime Text and Textmate. The below installation instructions are for Sublime Text.
+
 ### Package Manager
 
 First, install the Package Control plugin, instructions here: http://wbond.net/sublime_packages/package_control.
@@ -23,7 +25,7 @@ The advantage of using this method is that Package Control will automatically ke
 
 Clone the repository in your Sublime Text "Packages" directory:
 
-    git clone https://github.com/adamchainz/sublime-fluentd.git Fluentd
+    git clone https://github.com/adamchainz/fluentd.tmLanguage.git Fluentd
 
 The "Packages" directory is located at:
 
