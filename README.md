@@ -1,5 +1,7 @@
-Sublime syntax highlighting for Fluentd
-=======================================
+Syntax highlighting for Fluentd
+===============================
+
+Got some [fluentd](http://www.fluentd.org/) configuration files you wish were easier on the eyes? Look no further!
 
 ## Screenshot
 
