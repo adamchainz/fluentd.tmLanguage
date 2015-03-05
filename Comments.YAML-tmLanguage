@@ -1,0 +1,8 @@
+# [PackageDev] target_format: plist, ext: tmPreferences
+name: Comments
+uuid: 414294CD-383B-4244-96C6-4DB481559B5B
+scope: source.fluentd
+settings:
+  shellVariables:
+  - name: TM_COMMENT_START
+    value: '# '
